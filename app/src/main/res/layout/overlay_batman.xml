@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/overlayRoot"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/speechBubble"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="4dp">
+
+        <TextView
+            android:id="@+id/tvSpeech"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/speech_bubble_bg"
+            android:text="I am Batman."
+            android:textColor="#000000"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            android:padding="8dp"
+            android:maxWidth="160dp"/>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/ivBatman"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:src="@drawable/batman"
+        android:layout_gravity="center_horizontal"/>
+
+</FrameLayout>
