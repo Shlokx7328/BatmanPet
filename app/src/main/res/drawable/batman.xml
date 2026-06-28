@@ -36,15 +36,15 @@
     <path android:fillColor="#1a1a1a"
         android:pathData="M72,55 Q68,52 63,55 Q65,58 70,57 Z"/>
 
-    <ellipse android:fillColor="#FFFFFF"
-        android:cx="53" android:cy="55" android:rx="3" android:ry="2"/>
-    <ellipse android:fillColor="#FFFFFF"
-        android:cx="67" android:cy="55" android:rx="3" android:ry="2"/>
+    <path android:fillColor="#FFFFFF"
+        android:pathData="M50,53 a3,2 0 1,0 6,0 a3,2 0 1,0 -6,0 Z"/>
+    <path android:fillColor="#FFFFFF"
+        android:pathData="M64,53 a3,2 0 1,0 6,0 a3,2 0 1,0 -6,0 Z"/>
 
-    <ellipse android:fillColor="#000000"
-        android:cx="53" android:cy="55" android:rx="1.5" android:ry="1.5"/>
-    <ellipse android:fillColor="#000000"
-        android:cx="67" android:cy="55" android:rx="1.5" android:ry="1.5"/>
+    <path android:fillColor="#000000"
+        android:pathData="M51.5,53 a1.5,1.5 0 1,0 3,0 a1.5,1.5 0 1,0 -3,0 Z"/>
+    <path android:fillColor="#000000"
+        android:pathData="M65.5,53 a1.5,1.5 0 1,0 3,0 a1.5,1.5 0 1,0 -3,0 Z"/>
 
     <path android:fillColor="#c0392b"
         android:pathData="M56,62 Q60,65 64,62"
